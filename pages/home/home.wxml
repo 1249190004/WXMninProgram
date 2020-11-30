@@ -1,2 +1,6 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo"></button>
+<open-data type="userNickName"></open-data>
+<!-- <view wx:for="{{list}}">{{item.title}}</view> -->
+<!-- <image src="../../assets/images/common/top.png"/> -->
+<button bindtap="handleChooseAlbum">选中图片</button>

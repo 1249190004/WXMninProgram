@@ -5,29 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-    list:[]
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // wx.request({
-    //   url: 'https://nicemusic-api.lxhcool.cn/hot/topic',
-    //   success:(res)=>{
-    //     console.log(res.data.hot)
-    //     this.setData({
-    //       list: res.data.hot
-    //     })
-    //   }
-    // })
-  },
-  handleChooseAlbum(){
-    wx.chooseImage({
-      success:(res)=>{
-        console.log(res)
-      }
-    })
+
   },
 
   /**
